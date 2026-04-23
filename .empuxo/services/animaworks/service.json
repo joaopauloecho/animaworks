@@ -1,0 +1,18 @@
+{
+  "id": "animaworks",
+  "role": "web",
+  "gcpService": "cloud-run",
+  "publicPort": 18500,
+  "exposePublic": true,
+  "healthCheck": {
+    "path": "/api/system/health",
+    "port": 18500,
+    "intervalSec": 30,
+    "timeoutSec": 5
+  },
+  "resources": {
+    "memory": "2Gi",
+    "cpu": "2",
+    "minInstances": 1
+  }
+}

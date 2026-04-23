@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ANTHROPIC_API_KEY",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "OPENAI_API_KEY",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "GOOGLE_API_KEY",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "NOVELAI_API_TOKEN",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "FAL_KEY",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "MESHY_API_KEY",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "SLACK_BOT_TOKEN",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "SLACK_APP_TOKEN",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "CHATWORK_API_TOKEN",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "OLLAMA_SERVERS",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "ICON_URL_TEMPLATE",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "ANIMAWORKS_DATA_DIR",
+    "source": ".env.example",
+    "required": false,
+    "scope": "animaworks"
+  },
+  {
+    "name": "TZ",
+    "source": "docker-compose.yml",
+    "required": false,
+    "scope": "animaworks"
+  }
+]
